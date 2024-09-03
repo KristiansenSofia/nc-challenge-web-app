@@ -15,7 +15,7 @@ A deployed version of the app can be found at: `http://www.example.se`
 Instructions using Terminal:
 
 1. Clone the repository.
-2. cd NC-countdown-web-app.
+2. cd nc-challenge-web-app.
 3. Run `npm install` to install dependencies.
 4. Run `ng serve --open` to start a dev server and automatically open the app in a web browser.
 5. To stop the dev server run `ctrl + z`.
