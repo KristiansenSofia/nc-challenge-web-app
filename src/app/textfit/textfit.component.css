@@ -1,0 +1,14 @@
+/* Warning:
+Altering the style may result in breaking the textfit component.
+As they are required for the component to work as expected. */
+
+.textfit-container {
+  width: 100%;
+}
+
+p {
+  margin: 0;
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 16px;
+}

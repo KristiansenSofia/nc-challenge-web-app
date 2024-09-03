@@ -1,27 +1,34 @@
 # NCCountdownWebApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
+The NC Countdown Web App is built using:
 
-## Development server
+- Angular CLI version 18.2.1.
+- TypeScript 5.5.2
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Deployed version
 
-## Code scaffolding
+//TODO: Uppdatera URL till deployed version
+A deployed version of the app can be found at: `http://www.example.se`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Run locally (development server)
+
+Instructions using Terminal:
+
+1. Clone the repository.
+2. cd NC-countdown-web-app.
+3. Run `npm install` to install dependencies.
+4. Run `ng serve --open` to start a dev server and automatically open the app in a web browser.
+5. To stop the dev server run `ctrl + z`.
 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Optional goals
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+How to improve this solution:
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. Write a different fail safe for date picker.
+   Background: The `min` attribute on `input type=date` is not supported on iOS devices iPhone and iPad. Hence my implemented fail safe, for the user to not be able to pick a past date, doesn't work on iPhone/iPad, but does work on desktop.
+2. Write a fail safe for the textfit component styling, by setting the correct CSS properties and values with JavaScript if they are not already set.
+   Background: Altering the style in the CSS document of the textfit component will break it.

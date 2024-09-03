@@ -1,0 +1,11 @@
+@media (orientation: landscape) {
+  .content {
+    margin-top: 15vh;
+  }
+}
+
+@media (orientation: portrait) {
+  .content {
+    margin-top: 20vh;
+  }
+}
