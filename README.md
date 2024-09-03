@@ -8,14 +8,14 @@ The NC Countdown Web App is built using:
 ## Deployed version
 
 A deployed version of the app can be found at:
-`https://kristiansensofia.github.io/nc-challenge-web-app/`
+[Github pages](https://kristiansensofia.github.io/nc-challenge-web-app/)
 
 ## Run locally (development server)
 
 Instructions using Terminal:
 
 1. Clone the repository.
-2. cd nc-challenge-web-app.
+2. `cd nc-challenge-web-app`.
 3. Run `npm install` to install dependencies.
 4. Run `ng serve --open` to start a dev server and automatically open the app in a web browser.
 5. To stop the dev server run `ctrl + z`.
