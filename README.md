@@ -7,7 +7,6 @@ The NC Countdown Web App is built using:
 
 ## Deployed version
 
-//TODO: Uppdatera URL till deployed version
 A deployed version of the app can be found at:
 `https://kristiansensofia.github.io/nc-challenge-web-app/`
 
