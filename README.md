@@ -8,7 +8,8 @@ The NC Countdown Web App is built using:
 ## Deployed version
 
 //TODO: Uppdatera URL till deployed version
-A deployed version of the app can be found at: `http://www.example.se`
+A deployed version of the app can be found at:
+`https://kristiansensofia.github.io/nc-challenge-web-app/`
 
 ## Run locally (development server)
 
@@ -23,6 +24,12 @@ Instructions using Terminal:
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+`ng build --base-href="https://kristiansensofia.github.io/nc-challenge-web-app/"`
+
+## Deploy
+
+Run `npx angular-cli-ghpages --dir=dist/nc-countdown-web-app/browser` to deploy the project to Github pages.
 
 ## Optional goals
 
